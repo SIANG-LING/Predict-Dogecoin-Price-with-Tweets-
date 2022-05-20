@@ -1,1 +1,8 @@
-# Predict-Dogecoin-Price-with-Tweets-
+# Predict Dogecoin Price with Tweets 
+Predict Dogecoin Price with Tweets is a text analytics project that aims to find a way to predict the price of dogecoin through analysing tweets. Since 2021, dogecoin has shown its popularity through the power of social media - Twitter, especially tweets made by public figures, Elon Musk. For this project, it looks at social signals and sentiment analysis for the prediction of prices of dogecoin to find the best strategy for investing. 
+
+First, it requires us to scrape tweets contained 'dogecoin'. Totally, we crawled 531,967 tweets from 12/2021 to 03/2022. The Twitter data is scraped using the Twitter Search Scraper. The crawling program creats weekly data in to a csv file, and then we combine all the csv file with pandas. The data of dogecoin price is from Binance.com. Secondly, we did some data cleaning and manipulation by pandas. For example, we group the price and tweets data into hourly data rather than minutes. Next, we use NLTK VADER and TextBlob to calculate the sentiment score of tweets in each minutes. 
+
+The project has two parts, the first part is useing LSTM to predict the dogecoin price. We tried 5 methods, including the baseline - historical price. Hopeing to find a best method to predict the price. As for the second part, we self-define the turnover point of the dogecoin price. Comparing the turnover and the sentiment score to predict the time the price would turn into huge increase or decrease.
+
+If you want to read deliverables, please go to Final Report.pdf and Presentation Slides.pdf. Special thanks to prof. Yilu Zhou, Arpita Choudhury, Shayna Lue, Zhiyi Tan. We are from Fordham University 2022', MS in Business Analytics program. If you have any question or suggestion, please email shsu18@fordham.edu.
