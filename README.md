@@ -5,4 +5,4 @@ First, it requires us to scrape tweets contained 'dogecoin'. Totally, we crawled
 
 The project has two parts, the first part is useing LSTM to predict the dogecoin price. We tried 5 methods, including the baseline - historical price. Hopeing to find a best method to predict the price. As for the second part, we self-define the turnover point of the dogecoin price. Comparing the turnover and the sentiment score to predict the time the price would turn into huge increase or decrease.
 
-If you want to read deliverables, please go to Final Report.pdf and Presentation Slides.pdf. Special thanks to prof. Yilu Zhou, Arpita Choudhury, Shayna Lue, Zhiyi Tan. We are from Fordham University 2022', MS in Business Analytics program. If you have any question or suggestion, please email shsu18@fordham.edu.
+If you want to read details, please go to pdf file and popwerpoint slides. Special thanks to prof. Yilu Zhou, Arpita Choudhury, Shayna Lue, Zhiyi Tan. We are from Fordham University 2022', MS in Business Analytics program. If you have any question or suggestion, please email shsu18@fordham.edu.
